@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.header {
+    background-color: #101010;
+    color: white;
+    padding: 20px 0;
+}
+
+.inner-header {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-container h1 {
+    margin: 0;
+}
+
+.navigation {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.navigation a {
+    text-decoration: none;
+}
+
+.navigation a li {
+    padding: 10px 20px;
+    color: white;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.navigation a:hover li {
+    background-color: gray;
+    color: #101010;
+}
+
+.content {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.about-container {
+    display: inline-block;
+    text-align: justify;
+}
+
+.about-container img {
+    float: left;
+    margin: 0 20px 20px 0;
+    width: 284px;
+    border-radius: 34%;
+}
+
+h2 {
+    color: #101010;
+    text-align: center;
+}
+
+.about-container p {
+    margin: 0 0 20px;
+}
+
+.contact-list {
+    list-style: none;
+    padding: 0;
+    margin: 20px auto;
+    max-width: 400px;
+    text-align: left;
+}
+
+.contact-list li {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.contact-list li i {
+    margin-right: 10px;
+    color: #007bff;
+}
+
+.contact-list li a {
+    text-decoration: none;
+    color: #007bff;
+    transition: color 0.3s;
+}
+
+.contact-list li a:hover {
+    color: #0056b3;
+}
